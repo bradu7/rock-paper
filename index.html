@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissors</title>
+    <!-- <script src="main.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="selection">
+        <h1>Rock paper scissors Game</h1>
+        <h2 id="computer-choice">Computer Choice:</h2>
+        <h2 id="your-choice">Your Choice: </h2>
+        <h2 id="result">Result:</h2>
+    </div>
+    <div class="results">
+        <button class="result"><img
+                src="https://cdn.pixabay.com/photo/2014/03/25/15/26/rock-paper-scissors-296854_960_720.png" width="100"
+                id="rock"></button>
+        <button class="result"><img
+                src="https://cdn.pixabay.com/photo/2014/03/25/15/26/rock-paper-scissors-296855_1280.png" width="100"
+                id="paper"></button>
+        <button class="result"><img
+                src="https://cdn.pixabay.com/photo/2014/03/25/15/26/rock-paper-scissors-296853_1280.png" width="100"
+                id="scissors"></button>
+    </div>
+    <div class="counter">
+        <div class="you-counter">
+            You <span class="score" your-score>0</span>
+        </div>
+        <div class="computer-counter">
+            Computer <span class="score" computer-score>0</span>
+        </div>
+    </div>
+    <div class="reset">
+        <button id="resetGame">Reset</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
